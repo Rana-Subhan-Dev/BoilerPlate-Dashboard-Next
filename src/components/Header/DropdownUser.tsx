@@ -15,7 +15,7 @@ const DropdownUser = () => {
       >
         <span className="h-12 w-12 rounded-full">
         <Image
-      src="https://avatars.githubusercontent.com/u/54278253?v=4"
+      src="https://png.pngtree.com/png-vector/20220709/ourmid/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png"
       width={110}
       height={110}
       className="rounded-full"
@@ -25,7 +25,7 @@ const DropdownUser = () => {
         </span>
 
         <span className="flex items-center gap-2 font-medium text-dark dark:text-dark-6">
-          <span className="hidden lg:block">RANA SUBHAN</span>
+          <span className="hidden lg:block">ADMIN</span>
 
           <svg
             className={`fill-current duration-200 ease-in ${dropdownOpen && "rotate-180"}`}
@@ -53,7 +53,7 @@ const DropdownUser = () => {
           <div className="flex items-center gap-2.5 px-5 pb-5.5 pt-3.5">
             <span className="relative block h-12 w-12 rounded-full">
               <Image
-                src="https://avatars.githubusercontent.com/u/54278253?v=4"
+                src="https://png.pngtree.com/png-vector/20220709/ourmid/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png"
                 width={112}
                 height={112}
                 className="rounded-full"
@@ -66,10 +66,10 @@ const DropdownUser = () => {
 
             <span className="block">
               <span className="block font-medium text-dark dark:text-white">
-                RANA SUBHAN
+                Admin
               </span>
               <span className="block font-medium text-dark-5 dark:text-dark-6">
-                subhan@admin.com
+                admin@rise.com
               </span>
             </span>
           </div>

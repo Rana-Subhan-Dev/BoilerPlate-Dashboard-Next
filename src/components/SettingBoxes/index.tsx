@@ -13,10 +13,10 @@ const SettingBoxes = () => {
                 Personal Information
               </h3>
             </div>
-            <div className="p-7">
+            <div className="p-7 pb-10">
               <form>
                 <div className="mb-5.5 flex flex-col gap-5.5 sm:flex-row">
-                  <div className="w-full sm:w-1/2">
+                  <div className="w-full">
                     <label
                       className="mb-3 block text-body-sm font-medium text-dark dark:text-white"
                       htmlFor="fullName"
@@ -52,13 +52,13 @@ const SettingBoxes = () => {
                         type="text"
                         name="fullName"
                         id="fullName"
-                        placeholder="Rana Subhan"
-                        defaultValue="Rana Subhan"
+                        placeholder="John Doe"
+                        defaultValue="John Doe"
                       />
                     </div>
                   </div>
 
-                  <div className="w-full sm:w-1/2">
+                  {/* <div className="w-full sm:w-1/2">
                     <label
                       className="mb-3 block text-body-sm font-medium text-dark dark:text-white"
                       htmlFor="phoneNumber"
@@ -89,11 +89,11 @@ const SettingBoxes = () => {
                         type="text"
                         name="phoneNumber"
                         id="phoneNumber"
-                        placeholder="+92 301 7144752"
-                        defaultValue="+92 301 7144752"
+                        placeholder="+92039440400"
+                        defaultValue="+92040400402"
                       />
                     </div>
-                  </div>
+                  </div> */}
                 </div>
 
                 <div className="mb-5.5">
@@ -126,12 +126,13 @@ const SettingBoxes = () => {
                       type="email"
                       name="emailAddress"
                       id="emailAddress"
-                      placeholder="ranasubhandev@paklogics.com"
-                      defaultValue="ranasubhandev@paklogics.com"
+                      placeholder="admin@rise.com"
+                      defaultValue="admin@rise.com"
+                      disabled
                     />
                   </div>
                 </div>
-
+                {/* 
                 <div className="mb-5.5">
                   <label
                     className="mb-3 block text-body-sm font-medium text-dark dark:text-white"
@@ -168,13 +169,13 @@ const SettingBoxes = () => {
                       type="text"
                       name="Username"
                       id="Username"
-                      placeholder="ranasubhandev"
-                      defaultValue="ranasubhandev"
+                      placeholder="ADMIN"
+                      defaultValue="ADMIN"
                     />
                   </div>
-                </div>
+                </div> */}
 
-                <div className="mb-5.5">
+                {/* <div className="mb-5.5">
                   <label
                     className="mb-3 block text-body-sm font-medium text-dark dark:text-white"
                     htmlFor="bio"
@@ -206,13 +207,12 @@ const SettingBoxes = () => {
                       id="bio"
                       rows={6}
                       placeholder="Write your bio here"
-                      defaultValue="Hi, I’m Rana Subhan, have been working on the most wanted tools and technology like React/Nextjs, Vue.js, Reacts-Native, Node.js, CICD-GitHub Actions, Docker, Digital Oceans, and AWS web services from almost 5 years.
-I hold a master's degree in software engineering and have some publications in cloud native computing on international platforms."
+                      defaultValue="orem ipsum, in graphical and textual context, refers to filler text that is placed in a document or visual presentation. Lorem ipsum is derived from the Latin dolorem ipsum roughly translated as"
                     ></textarea>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="flex justify-end gap-3">
+                <div className="flex justify-end gap-3 pt-4 pb-8">
                   <button
                     className="flex justify-center rounded-[7px] border border-stroke px-6 py-[7px] font-medium text-dark hover:shadow-1 dark:border-dark-3 dark:text-white"
                     type="submit"
@@ -237,19 +237,19 @@ I hold a master's degree in software engineering and have some publications in c
                 Your Photo
               </h3>
             </div>
-            <div className="p-7">
+            <div className="p-7 ">
               <form>
                 <div className="mb-4 flex items-center gap-3">
                   <div className="h-14 w-14 rounded-full">
                     <>
-                       <Image
-                           src="https://avatars.githubusercontent.com/u/54278253?v=4"
-                           width={55}
-                           height={55}
-                           className="rounded-full"
-                           alt="Profile"
-                           priority
-                         />
+                      <Image
+                        src="https://png.pngtree.com/png-vector/20220709/ourmid/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png"
+                        width={55}
+                        height={55}
+                        className="rounded-full"
+                        alt="Profile"
+                        priority
+                      />
                     </>
                   </div>
                   <div>

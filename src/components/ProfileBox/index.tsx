@@ -22,16 +22,16 @@ const ProfileBox = () => {
           <div className="absolute bottom-1 right-1 z-10 xsm:bottom-4 xsm:right-4">
             <label
               htmlFor="cover"
-              className="flex cursor-pointer items-center justify-center gap-2 rounded-[3px] bg-primary px-[15px] py-[5px] text-body-sm font-medium text-white hover:bg-opacity-90"
+              className="flex cursor-pointer items-center justify-center gap-2 rounded-[3px] px-[15px] py-[5px] text-body-sm font-medium text-white hover:bg-opacity-90"
             >
-              <input
+              {/* <input
                 type="file"
                 name="coverPhoto"
                 id="coverPhoto"
                 className="sr-only"
                 accept="image/png, image/jpg, image/jpeg"
-              />
-              <span>
+              /> */}
+              {/* <span>
                 <svg
                   className="fill-current"
                   width="18"
@@ -47,8 +47,8 @@ const ProfileBox = () => {
                     fill=""
                   />
                 </svg>
-              </span>
-              <span>Edit</span>
+              </span> */}
+              {/* <span>Edit</span> */}
             </label>
           </div>
         </div>
@@ -56,7 +56,7 @@ const ProfileBox = () => {
           <div className="relative z-30 mx-auto -mt-22 h-30 w-full max-w-30 rounded-full bg-white/20 p-1 backdrop-blur sm:h-44 sm:max-w-[176px] sm:p-3">
             <div className="relative drop-shadow-2">
               <Image
-                src="https://avatars.githubusercontent.com/u/54278253?v=4"
+                src="https://png.pngtree.com/png-vector/20220709/ourmid/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png"
                 width={160}
                 height={160}
                 className="rounded-full"
@@ -65,7 +65,7 @@ const ProfileBox = () => {
               />
             </div>
 
-            <label
+            {/* <label
               htmlFor="profilePhoto"
               className="absolute bottom-0 right-0 flex h-8.5 w-8.5 cursor-pointer items-center justify-center rounded-full bg-primary text-white hover:bg-opacity-90 sm:bottom-2 sm:right-2"
             >
@@ -92,14 +92,14 @@ const ProfileBox = () => {
                 className="sr-only"
                 accept="image/png, image/jpg, image/jpeg"
               />
-            </label>
+            </label> */}
           </div>
           <div className="mt-4">
             <h3 className="mb-1 text-heading-6 font-bold text-dark dark:text-white">
-              Rana Subhan
+            john doe
             </h3>
-            <p className="font-medium">Senior Software Engineer</p>
-            <div className="mx-auto mb-5.5 mt-5 grid max-w-[370px] grid-cols-3 rounded-[5px] border border-stroke py-[9px] shadow-1 dark:border-dark-3 dark:bg-dark-2 dark:shadow-card">
+            <p className="font-medium">Admin</p>
+            {/* <div className="mx-auto mb-5.5 mt-5 grid max-w-[370px] grid-cols-3 rounded-[5px] border border-stroke py-[9px] shadow-1 dark:border-dark-3 dark:bg-dark-2 dark:shadow-card">
               <div className="flex flex-col items-center justify-center gap-1 border-r border-stroke px-4 dark:border-dark-3 xsm:flex-row">
                 <span className="font-medium text-dark dark:text-white">
                   259
@@ -118,23 +118,18 @@ const ProfileBox = () => {
                 </span>
                 <span className="text-body-sm-sm">Following</span>
               </div>
-            </div>
+            </div> */}
 
             <div className="mx-auto max-w-[720px]">
               <h4 className="font-medium text-dark dark:text-white">
-                About Me
+              admin@rise.com
               </h4>
-              <p className="mt-4">
-                Hi, I’m Rana Subhan, have been working on the most wanted tools
-                and technology like React/Nextjs, Vue.js, Reacts-Native,
-                Node.js, CICD-GitHub Actions, Docker, Digital Oceans, and AWS
-                web services from almost 5 years. I hold a master's degree in
-                software engineering and have some publications in cloud native
-                computing on international platforms.
-              </p>
+              {/* <p className="mt-4">
+              orem ipsum, in graphical and textual context, refers to filler text that is placed in a document or visual presentation. Lorem ipsum is derived from the Latin "dolorem ipsum" roughly translated as
+              </p> */}
             </div>
 
-            <div className="mt-4.5">
+            {/* <div className="mt-4.5">
               <h4 className="mb-3.5 font-medium text-dark dark:text-white">
                 Follow me on
               </h4>
@@ -279,7 +274,7 @@ const ProfileBox = () => {
                   </svg>
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
