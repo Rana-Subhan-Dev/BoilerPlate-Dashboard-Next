@@ -5,6 +5,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: {
+    unoptimized: true,
     domains: ["localhost","avatars.githubusercontent.com","paklogics.com"],
     remotePatterns: [
       {
